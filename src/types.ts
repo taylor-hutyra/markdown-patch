@@ -122,7 +122,7 @@ export interface ReplaceHeadingPatchInstruction
     StringContent {
   operation: "replace";
   /**
-   * When `true`, the heading will be replaced along with its content.
+   * When replaceHeading is `true`, the heading will be replaced along with its content.
    *
    * By default, only the content under the heading is replaced.
    */
