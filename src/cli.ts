@@ -90,7 +90,7 @@ program
           targetType,
           content,
           target: target.split(options.delimiter),
-          replaceHeading: options.replaceHeading, // This is now safely applied
+          replaceHeading: options.replaceHeading, 
         };
       } else {
         // If the user tries to use the flag incorrectly, exit with an error.
